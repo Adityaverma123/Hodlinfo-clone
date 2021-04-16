@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  color: #fff;
+  
+}
+.App{
+  background: #191d28;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+/* .App{
+  background: #191d28;
+  width: 100vw;
+  height: 100vh;
+}
+.c_name{
+  width: 100%;
+  
+}
+.c_name p{
+  font-family: Oswald, sans-serif;
+  margin-top: -18px;
+  opacity: 0.8;
+  font-size: 18px;
+  color: gray;
+  margin-left: 15px
+  ;
+}
+.c_name p span{
+  color:  rgb(61, 198, 193);
+}
+
+.logo{
+  width: 80%;
+  padding: 10px;
+}
+.rates{
+  width: 100%;
+}
+.div_telegram{
+  width: 100%;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 0;
+  margin: 0 15px;
+}
+.div_telegram{
+  display: flex;
+}
+a{
+  margin:0 15px;
+  background-color: #3dc6c1;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 6px 20px;
+}
+.telegram img{
+  height: 15px;
+  margin-right: 10px;
+
+} */
+
