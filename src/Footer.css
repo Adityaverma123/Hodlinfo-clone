@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     padding: 13px;
-    width: 98%;
+    width: 99%;
     border-top: 2px solid #2e3241;
+    align-items: center;
     
 }
 .nothing{
@@ -13,16 +14,30 @@
 .footer-one{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .footer-text{
     font-family: Oswald,sans-serif;
     padding-right: 7px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     color: #888686;
+    text-align: center;
     
 }
 .footer-text span{
     color: rgb(61, 198, 193);
     cursor: pointer;
+}
+@media(max-width:388px){
+    .footer-text{
+        font-size: 8px;
+    }
+    .footer{
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    .footer-one{
+        justify-content: space-evenly;
+    }
 }

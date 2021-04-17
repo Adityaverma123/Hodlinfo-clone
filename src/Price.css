@@ -1,21 +1,58 @@
 .price{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+    grid-template-areas: "minutes hour rate day days";
     padding: 0 30px;
 }
 .rate div{
     text-align: center;
 }
+.minutes{
+    grid-area: "minutes";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hour{
+    grid-area:"hour";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.rate{
+    grid-area: "rate";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.day{
+    grid-area: "day";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.days{
+    grid-area:"days";
+    display: flex;
+     justify-content: center;
+    flex-direction: column;
+}
 .rupees{
     font-weight: 400;
     font-size: 80px;
     padding-bottom: 10px;
+    text-align: center;
+    padding: 0;
 }
 .percent{
     font-weight: 400;
     font-size: 40px;
-    color: #5dc7c2;;
+    color: #5dc7c2;
+    text-align: center;
 }
 .time{
     text-align: center;
@@ -24,13 +61,16 @@
     font-size: 20px;
 }
 .best_price{
-    font-size: 28px;
     text-align: center;
+    font-size: 28px;
     opacity: .45;
     font-weight: 300;
 }
 
 @media(max-width:950px){
+    .price{
+        padding: 0;
+    }
     .percent{
         font-size: 14px;
     }
@@ -42,5 +82,21 @@
     }
     .rupees{
         font-size: 20px;
+    
+    }
+}
+
+@media(max-width:500px){
+    .percent{
+        font-size: 11px;
+    }
+    .time{
+        font-size: 10px;
+    }
+    .best_price{
+        font-size: 11px;
+    }
+    .rupees{
+        font-size: 16px;
     }
 }

@@ -21,7 +21,7 @@ table{
   } */
   
 th{
-    font-family: Oswald;
+    font-family: Oswald sans-serif;
     font-size: 24px;
     opacity: .45;
     letter-spacing: 1px;
@@ -33,11 +33,13 @@ table tbody tr{
 table tbody td{
    
     color: #fff;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    padding: 15px 0px;
     font-family: Oswald;
     font-size: 24px;
     font-weight: 700;
+    
     
 }
 table tbody td:first-child{
@@ -54,4 +56,11 @@ border-radius: 0 10px 10px 0;
     .table{
         overflow-x: scroll;
     }
+}
+@media(max-width:550px){
+    table tbody td{
+        font-size: 14px;
+        width: 30px;
+    }
+
 }

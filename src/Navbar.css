@@ -111,9 +111,7 @@ option{
         text-align: center;
         
     }
-    .logo>img{
-        width: 30%;
-    }
+
     .logo{
         display: flex;
         align-items: center;
@@ -126,6 +124,9 @@ option{
     }
     .telegram{
         padding: 0;
+    }
+    .telegram a{
+        padding: 5px 10px;
     }
 }
 

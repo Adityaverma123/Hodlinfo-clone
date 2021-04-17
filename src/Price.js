@@ -13,7 +13,7 @@ const Price = () => {
             </div>
 
             <div className="rate">
-                <div className="best_price">Best Price to Trade</div>
+                <span className="best_price">Best Price to Trade</span>
                 <div className="rupees">&#8377; 127</div>
                 <div className="time">Average XRP/INR net price including commission</div>
             </div>
